@@ -3,8 +3,8 @@ const Discord = require('discord.js');
 // create a new Discord client
 const client = new Discord.Client();
 
-const token = process.env.token;
-const blu_words = process.env.blu-words;
+const token = process.env.TOKEN;
+const blu_words = JSON.parse(process.env.BLU_WORDS);
 
 //login to Discord with your app's token
 client.login(token)
