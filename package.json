@@ -4,21 +4,24 @@
   "lockfileVersion": 1,
   "requires": true,
   "dependencies": {
+	"request": "2.81.0"
     "discord.js": "^12.3.1"
   },
   "main": "bluebot.js",
   "scripts": {
+	"start": "node bluebot.js"
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/CovaDax1/blu-bot.git"
   },
-  "author": "",
+  "author": "CovaDax",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/CovaDax1/blu-bot/issues"
   },
   "homepage": "https://github.com/CovaDax1/blu-bot#readme",
   "description": ""
+  
 }
