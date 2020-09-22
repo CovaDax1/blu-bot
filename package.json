@@ -1,25 +1,24 @@
 {
   "name": "blu-bot",
   "version": "1.0.0",
-  "description": "Did somebody say blu?",
-  "main": "index.js",
+  "lockfileVersion": 1,
+  "requires": true,
+  "dependencies": {
+    "discord.js": "^12.3.1"
+  },
+  "main": "bluebot.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "CovaDax",
-  "license": "ISC",
-  "dependencies": {
-    "discord.js": "^12.3.1",
-    "eslint": "^7.9.0"
-  },
-  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/CovaDax1/blu-bot.git"
   },
+  "author": "",
+  "license": "ISC",
   "bugs": {
     "url": "https://github.com/CovaDax1/blu-bot/issues"
   },
-  "homepage": "https://github.com/CovaDax1/blu-bot#readme"
+  "homepage": "https://github.com/CovaDax1/blu-bot#readme",
+  "description": ""
 }
